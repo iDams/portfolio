@@ -5,7 +5,7 @@ import favicon from './assets/logo.png'
 let inlinedStyles = '';
 if (process.env.NODE_ENV === 'production') {
   try {
-    inlinedStyles = require('!raw-loader!../layout/index.css');
+    inlinedStyles = require('!raw-loader!./layout/index.css');
   } catch (e) {
     console.log(e);
   }
