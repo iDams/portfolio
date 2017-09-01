@@ -58,15 +58,16 @@ export default ({ hash }) => {
           alignItems: 'center'
         }}
       >
-        <a href="#" css={{ padding: '15px' }}>
-          <img src={logo} css={{ height: '35px' }} />
+        <a href="#" css={{ padding: '0 15px' }}>
+          <img src={logo} css={{ height: '30px' }} />
         </a>
 
         <ul css={{
           display: 'flex',
           listStyle: 'none',
           justifyContent: 'flex-end',
-          padding: '0'
+          padding: '0',
+          margin: '0'
          }}>
           <li><Link hash={''} currentHash={hash} text={'hello'} /></li>
           <li><Link hash={'#work'} currentHash={hash} text={'work'} /></li>

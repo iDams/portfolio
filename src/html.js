@@ -2,10 +2,29 @@ import { Component } from 'react'
 
 import favicon from './assets/logo.png'
 
-export default class HTML extends Component {
-  render() {
-    return (
+let inlinedStyles = '';
+if (process.env.NODE_ENV === 'production') {
+  try {
+    inlinedStyles = require('!raw-loader!../layout/index.css');
+  } catch (e) {
+    console.log(e);
+  }
+}
 
+export default class HTML extends Component {
+
+  render() {
+    let css;
+    if (process.env.NODE_ENV === 'production') {
+      css = (
+        <style
+          id="gatsby-inlined-css"
+          dangerouslySetInnerHTML={{ __html: inlinedStyles }}
+        />
+      );
+    }
+
+    return (
       <html lang="en">
         <head>
           <meta charSet="utf-8" />
