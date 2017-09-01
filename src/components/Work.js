@@ -11,18 +11,11 @@ export default () =>
       css={{
         display: 'flex',
         flexWrap: 'wrap',
-        margin: '0 -10px'
+        margin: '0 -5px'
       }}>
       <Project description="Molotov TV"/>
       <Project description="Molotov TV"/>
       <Project description="Molotov TV"/>
-    </div>
-    <div
-      css={{
-        display: 'flex',
-        flexWrap: 'wrap',
-        margin: '0 -10px'
-      }}>
       <Project description="Molotov TV"/>
       <Project description="Molotov TV"/>
     </div>

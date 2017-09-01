@@ -10,7 +10,7 @@ const Layout = ({ children, location}) => {
   return (
     <div>
       <Header hash={location.hash} />
-      <div css={{ marginTop: '47px' }}>
+      <div css={{ maxWidth: '900px', margin: '47px auto 0' }}>
         {children()}
       </div>
     </div>

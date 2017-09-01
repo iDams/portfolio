@@ -51,14 +51,17 @@ export default ({ hash }) => {
     <div css={headerCss}>
       <div
         css={{
-          maxWidth: '728px',
+          maxWidth: '900px',
           margin: 'auto',
           display: 'flex',
           justifyContent: 'space-between',
           alignItems: 'center'
         }}
       >
-        <img src={logo} css={{ height: '35px' }}/>
+        <a href="#" css={{ padding: '15px' }}>
+          <img src={logo} css={{ height: '35px' }} />
+        </a>
+
         <ul css={{
           display: 'flex',
           listStyle: 'none',
