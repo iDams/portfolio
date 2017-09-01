@@ -43,6 +43,7 @@ export default class HTML extends Component {
           {this.props.headComponents}
           <link rel="shortcut icon" href={favicon} />
           <title>Damien Soulard</title>
+          {css}
         </head>
         <body>
           <div
