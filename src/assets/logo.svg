@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="252px" height="252px" viewBox="0 0 252 252" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 1.000000)">
+            <circle id="Oval" stroke="#979797" fill="#4CAF50" cx="125" cy="125" r="125"></circle>
+            <text id="DS" font-family="Helvetica-Light, Helvetica" font-size="124" font-weight="300" fill="#FFFFFF">
+                <tspan x="42.354" y="168">DS</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
