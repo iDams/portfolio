@@ -1,8 +1,16 @@
 export default ({ children, htmlID }) => {
   return (
     <section
-      id={htmlID}
       css={{ padding: '35px 15px' }}>
+      <span
+        id={htmlID}
+        css={{
+          marginTop: '-85px',
+          paddingTop: '85px',
+          display: 'block',
+          visibility: 'hidden'
+        }}
+      />
       <div>
         {children}
       </div>
