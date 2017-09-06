@@ -34,7 +34,7 @@ export default class HTML extends Component {
           />
           <meta
             name="keywords"
-            content="portolio, damien, soulard, frontend, development, react, js"
+            content="portolio, damien, soulard, frontend, development, react, react-native js, javascript, html, css"
           />
           <meta
             name="viewport"
@@ -42,7 +42,7 @@ export default class HTML extends Component {
           />
           {this.props.headComponents}
           <link rel="shortcut icon" href={favicon} />
-          <title>Damien Soulard</title>
+          <title>Damien Soulard - Freelance Frontend Developer</title>
           {css}
         </head>
         <body>
