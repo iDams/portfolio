@@ -1,4 +1,4 @@
-export default ({ children }) => {
+export default ({ children, customCss, customCssForMobile }) => {
   return (
     <p
       css={{
@@ -9,8 +9,10 @@ export default ({ children }) => {
         "@media(max-width: 768px)": {
           width: "100%",
           lineHeight: "26px",
-          textAlign: "left"
-        }
+          textAlign: "left",
+          ...customCssForMobile
+        },
+        ...customCss
       }}
     >{children}
   </p>

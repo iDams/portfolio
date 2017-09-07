@@ -4,6 +4,7 @@ import ImportantWord from "../components/ImportantWord";
 import SecondaryWord from "../components/SecondaryWord";
 import Paragraph from "../components/Paragraph";
 import Headline from "../components/Headline";
+import SocialIcon from "../components/SocialIcon";
 
 const sectionName = "";
 
@@ -32,18 +33,32 @@ export default () => {
         </SecondaryWord>. We explore domains we are interested about, like
         chatbot or blockchain.
       </Paragraph>
+      <h2>Hobbit</h2>
       <Paragraph>
         Except programming, I love sports. I do windsurf as soon as possible.
         Pretty big fan of the battle rope workout. Might try Crossfits soon.
         Member of the{" "}
         <a
           href="https://www.youtube.com/watch?v=-xC_DbgpPAc"
-          css={{ color: "black", textDecoration: "none",fontStyle: "italic", ":hover": { textDecoration: "underline"} }}
+          css={{
+            color: "black",
+            textDecoration: "none",
+            fontStyle: "italic",
+            ":hover": { textDecoration: "underline" }
+          }}
         >
           <span css={{ textDecoration: "line-through" }}>5am</span> 6am club
         </a>. I believe morning routine is essential to be happy.
       </Paragraph>
-      <Paragraph>Twitter, Instagram, GitHub, Linkedin</Paragraph>
+      <Paragraph
+        customCss={{ marginTop: "60px" }}
+        customCssForMobile={{ textAlign: "center" }}
+      >
+        <SocialIcon twitter />
+        <SocialIcon github />
+        <SocialIcon linkedin />
+        <SocialIcon instagram />
+      </Paragraph>
     </Section>
   );
 };
