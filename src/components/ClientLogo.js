@@ -1,4 +1,4 @@
-export default ({ imgSrc, description }) => {
+export default ({ imgSrc, description, url }) => {
   return (
     <div
       css={{
@@ -7,8 +7,12 @@ export default ({ imgSrc, description }) => {
           width: '100%'
         }
       }}>
-      <div
+      <a
+        href={url}
+        target="_blank"
         css={{
+          display: 'flex',
+          justifyContent: 'center',
           margin: '5px',
           padding: '10px',
           border: '1px solid #eaeaea',
@@ -17,11 +21,11 @@ export default ({ imgSrc, description }) => {
           }
       }}>
         <img
-          src="http://img.phonandroid.com/2016/07/molotov-tv.jpg"
-          css={{ width: '100%' }}
+          alt={description}
+          src={imgSrc}
+          css={{ height: '100px' }}
         />
-        <p css={{ margin: '10px 0 0' }}>{description}</p>
-      </div>
+      </a>
     </div>
   )
 }

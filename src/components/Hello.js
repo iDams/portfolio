@@ -15,7 +15,7 @@ export default () => {
       <p css={{ margin: "20px 0 0", fontSize: "18px", textAlign: "center" }}>
         I'm <span css={{ fontSize: "24px" }}>Damien Soulard</span>
       </p>
-      <Headline>a Passionate and Self-taught Frontend Developer</Headline>
+      <Headline>a Passionate and Curious Frontend Developer</Headline>
       <Paragraph>
         With five years of experience, I have fun building great apps using{" "}
         <ImportantWord url="https://facebook.github.io/react/">
@@ -33,7 +33,6 @@ export default () => {
         </SecondaryWord>. We explore domains we are interested about, like
         chatbot or blockchain.
       </Paragraph>
-      <h2>Hobbit</h2>
       <Paragraph>
         Except programming, I love sports. I do windsurf as soon as possible.
         Pretty big fan of the battle rope workout. Might try Crossfits soon.
