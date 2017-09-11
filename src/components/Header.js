@@ -48,7 +48,7 @@ export default ({ hash }) => {
   }
 
   return (
-    <div css={headerCss}>
+    <header css={headerCss}>
       <div
         css={{
           maxWidth: '900px',
@@ -75,6 +75,6 @@ export default ({ hash }) => {
         </ul>
       </div>
 
-    </div>
+    </header>
   )
 }

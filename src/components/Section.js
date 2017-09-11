@@ -1,7 +1,7 @@
-export default ({ children, htmlID }) => {
+export default ({ children, htmlID, customStyle }) => {
   return (
     <section
-      css={{ padding: '35px 15px' }}>
+      css={{ padding: '35px 15px', ...customStyle }}>
       <span
         id={htmlID}
         css={{
