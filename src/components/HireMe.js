@@ -8,8 +8,11 @@ export default () => {
   return (
     <Section htmlID={sectionName} customStyle={{ paddingBottom: "80px" }}>
       <Title anchor={sectionName}>Hire me</Title>
-      <Contact email />
-      <Contact phone />
+      <div css={{ display: 'flex', flexDirection: 'column'}}>
+        <Contact email />
+        <Contact phone />
+      </div>
+
     </Section>
   );
 };
