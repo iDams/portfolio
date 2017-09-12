@@ -38,6 +38,7 @@ export default () => {
         Pretty big fan of the battle rope workout. Might try Crossfits soon.
         Member of the{" "}
         <a
+          target="_blank"
           href="https://www.youtube.com/watch?v=-xC_DbgpPAc"
           css={{
             color: "black",
