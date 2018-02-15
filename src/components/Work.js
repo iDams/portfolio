@@ -3,9 +3,10 @@ import Title from "../components/Title";
 import ClientLogo from "../components/ClientLogo";
 
 import dailymotionLogo from "../assets/dailymotion-logo.svg";
-import molotovLogo from '../assets/molotov-logo.jpg'
-import ubeeqoLogo from '../assets/ubeeqo-logo.png'
-import sliceLogo from '../assets/slice-logo.png'
+import molotovLogo from "../assets/molotov-logo.jpg";
+import ubeeqoLogo from "../assets/ubeeqo-logo.png";
+import sliceLogo from "../assets/slice-logo.png";
+import ffrLogo from "../assets/ffr-logo.png";
 
 const sectionName = "work";
 
@@ -19,6 +20,11 @@ export default () => (
         margin: "0 -5px"
       }}
     >
+      <ClientLogo
+        url="https://competitions.ffr.fr"
+        description="FFR"
+        imgSrc={ffrLogo}
+      />
       <ClientLogo
         url="https://www.dailymotion.com"
         description="Dailymotion"
