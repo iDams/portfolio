@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Section from "../components/Section";
 import Title from "../components/Title";
 import ClientLogo from "../components/ClientLogo";

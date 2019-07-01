@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default ({ imgSrc, description, url }) => {
   return (
     <div
@@ -11,6 +13,7 @@ export default ({ imgSrc, description, url }) => {
       <a
         href={url}
         target="_blank"
+        rel="noopener noreferrer"
         css={{
           display: "flex",
           justifyContent: "center",

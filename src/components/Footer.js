@@ -1,3 +1,5 @@
+import React from "react";
+
 export default () => {
   const cssContainer = {
     backgroundColor: "#12130F",
@@ -19,11 +21,18 @@ export default () => {
   return (
     <footer css={cssContainer}>
       <div css={cssContent}>
-        <div>Made with 🐒 by Damien Soulard</div>
+        <div>
+          Made with{" "}
+          <span role="img" aria-label="monkey-emoji">
+            🐒
+          </span>{" "}
+          by Damien Soulard
+        </div>
         <div>
           Code available on{" "}
           <a
             target="_blank"
+            rel="noopener noreferrer"
             href="https://github.com/amsdamsgram/portfolio"
             css={{
               textDecoration: "none",

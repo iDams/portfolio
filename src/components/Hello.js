@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Section from "../components/Section";
 import Title from "../components/Title";
 import ImportantWord from "../components/ImportantWord";
@@ -39,6 +41,7 @@ export default () => {
         Member of the{" "}
         <a
           target="_blank"
+          rel="noopener noreferrer"
           href="https://www.youtube.com/watch?v=-xC_DbgpPAc"
           css={{
             color: "black",

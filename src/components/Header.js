@@ -1,3 +1,5 @@
+import React from 'react';
+
 import logo from '../assets/logo.svg'
 
 const Link = ({ hash, currentHash, text }) => {
@@ -59,7 +61,7 @@ export default ({ hash }) => {
         }}
       >
         <a href="#" css={{ padding: '0 15px' }}>
-          <img src={logo} css={{ height: '30px' }} />
+          <img src={logo} alt="logo" css={{ height: '30px' }} />
         </a>
 
         <ul css={{

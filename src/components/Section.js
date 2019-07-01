@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default ({ children, htmlID, customStyle }) => {
   return (
     <section

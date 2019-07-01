@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default ({ children, url }) => {
   const css = {
     borderBottom: "2px solid #4CAF50",
@@ -13,7 +15,7 @@ export default ({ children, url }) => {
     }
   };
     return (
-      <a href={url} target="_blank" css={css}>
+      <a href={url} target="_blank" rel="noopener noreferrer" css={css}>
         {children}
       </a>
     );

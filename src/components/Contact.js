@@ -1,3 +1,4 @@
+import React from 'react';
 import SVGInline from "react-svg-inline";
 
 import phoneSvg from '!raw-loader!../assets/phone.svg'
@@ -35,6 +36,7 @@ export default ({ phone, email }) => {
       </div>
     )
 
+  // eslint-disable-next-line
   return null
   }
 }

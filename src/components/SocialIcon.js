@@ -1,3 +1,4 @@
+import React from 'react';
 import SVGInline from "react-svg-inline";
 
 import twitterSVG from "!raw-loader!../assets/twitter.svg";
@@ -29,7 +30,7 @@ export default ({ twitter, instagram, linkedin, github }) => {
   }
 
   return (
-    <a href={link} target="_blank" css={{ margin: "10px" }}>
+    <a href={link} target="_blank" rel="noopener noreferrer" css={{ margin: "10px" }}>
       <SVGInline svg={svg} fill="#DCE1DE" height="24px" width="24px" />
     </a>
   );
