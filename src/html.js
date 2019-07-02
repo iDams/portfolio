@@ -2,28 +2,9 @@ import { Component } from 'react'
 
 import favicon from './assets/logo.png'
 
-let inlinedStyles = '';
-if (process.env.NODE_ENV === 'production') {
-  try {
-    inlinedStyles = require('!raw-loader!./layouts/index.css');
-  } catch (e) {
-    console.log(e);
-  }
-}
-
 export default class HTML extends Component {
 
   render() {
-    let css;
-    if (process.env.NODE_ENV === 'production') {
-      css = (
-        <style
-          id="gatsby-inlined-css"
-          dangerouslySetInnerHTML={{ __html: inlinedStyles }}
-        />
-      );
-    }
-
     return (
       <html lang="en">
         <head>
@@ -43,7 +24,6 @@ export default class HTML extends Component {
           {this.props.headComponents}
           <link rel="shortcut icon" href={favicon} />
           <title>Damien Soulard - Freelance Frontend Developer</title>
-          {css}
         </head>
         <body>
           <div
