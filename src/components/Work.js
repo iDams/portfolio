@@ -9,6 +9,7 @@ import molotovLogo from "../assets/molotov-logo.jpg";
 import ubeeqoLogo from "../assets/ubeeqo-logo.png";
 import sliceLogo from "../assets/slice-logo.png";
 import ffrLogo from "../assets/ffr-logo.png";
+import veepeezLogo from '../assets/veepeez-logo.png';
 
 const sectionName = "work";
 
@@ -22,6 +23,12 @@ export default () => (
         margin: "0 -5px"
       }}
     >
+      <ClientLogo
+        url="https://www.veepeez.com/"
+        description="Vepeez"
+        imgSrc={veepeezLogo}
+        height={54}
+      />
       <ClientLogo
         url="https://competitions.ffr.fr"
         description="FFR"

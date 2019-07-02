@@ -11,8 +11,7 @@ export default () => {
     <Section htmlID={sectionName} customStyle={{ paddingBottom: "80px" }}>
       <Title anchor={sectionName}>Hire me</Title>
       <div css={{ display: 'flex', flexDirection: 'column'}}>
-        <Contact email />
-        <Contact phone />
+        <Contact />
       </div>
 
     </Section>

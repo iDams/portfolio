@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-export default ({ imgSrc, description, url }) => {
+export default ({ imgSrc, description, url, height }) => {
   return (
     <div
       css={{
@@ -15,8 +15,10 @@ export default ({ imgSrc, description, url }) => {
         target="_blank"
         rel="noopener noreferrer"
         css={{
+          alignItems: "center",
           display: "flex",
           justifyContent: "center",
+          height: "100px",
           margin: "5px",
           padding: "10px",
           border: "1px solid #eaeaea",
@@ -25,7 +27,16 @@ export default ({ imgSrc, description, url }) => {
           }
         }}
       >
-        <img alt={description} src={imgSrc} css={{ height: "100px" }} />
+        <img
+          alt={description}
+          src={imgSrc}
+          css={{
+            maxWidth: "250px",
+            maxHeight: "80px",
+            height: height ? `${height}px` : "80px",
+            width: "auto"
+          }}
+        />
       </a>
     </div>
   );

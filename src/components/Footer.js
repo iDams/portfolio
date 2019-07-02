@@ -43,7 +43,7 @@ export default () => {
             github
           </a>
         </div>
-        <div>Copyright © 2017 Damien Soulard. All rights reserved.</div>
+        <div>Copyright © 2019 Damien Soulard. All rights reserved.</div>
       </div>
     </footer>
   );
