@@ -5,7 +5,7 @@ import Section from "../components/Section";
 import Title from "../components/Title";
 
 export default props => (
-  <Layout location={props.location}>
+  <Layout location={props.location} withHeader={false}>
     <Section htmlID={""}>
       <h1>Terms of use</h1>
       <Title anchor="intro">1. TERMS OF USE</Title>
